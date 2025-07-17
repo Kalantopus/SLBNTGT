@@ -413,7 +413,7 @@ class SuratApp(QMainWindow):
         self.setCentralWidget(self.tabs)
         
         # Tampilkan pesan selamat datang
-        ModernMessageBox.show_success(self, "Selamat Datang", "✨ Selamat datang di Aplikasi Persuratan SLBN Tanah Grogot\n\nBy: Fahmi Firdausi")
+        ModernMessageBox.show_success(self, "Selamat Datang", "✅ Selamat datang di Aplikasi Persuratan SLBN Tanah Grogot ✅\n\nBy: Fahmi Firdausi")
     
     def setup_tab(self, tab, jenis):
         # Scroll area untuk konten yang panjang
@@ -606,7 +606,7 @@ class SuratApp(QMainWindow):
                 # Set stretch untuk kolom terakhir
                 self.table.horizontalHeader().setStretchLastSection(True)
                 
-            ModernMessageBox.show_success(self, "Berhasil", "✅ Data berhasil dimuat!")
+            ModernMessageBox.show_success(self, "Berhasil", "✅ Data berhasil dimuat! ✅")
         except Exception as e:
             ModernMessageBox.show_error(self, "Error", f"❌ Terjadi kesalahan saat memuat data:\n{str(e)}")
     
